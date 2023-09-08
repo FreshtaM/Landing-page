@@ -1,0 +1,15 @@
+
+
+.landing__navbar-menu_container button {
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background: #031755;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,134 @@
+.gpt3__header {
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.gpt3__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-top: 7rem;
+    margin-left: 10rem;
+}
+
+.gpt3__header-content h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.gpt3__header-content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6F7CB2;
+    z-index: 1;    
+}
+
+.landing_button{
+    display: flex;
+    gap: 30px;
+}
+
+
+.gpt3__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gpt3__header-image .bg-img {
+    width: 120%;
+    height: auto;
+}
+
+.gpt3__header-image .hero_img{
+    width: 500px;
+    height: 500px;
+    top: 5rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__header {
+        flex-direction: column;
+    }
+
+    .gpt3__header-content {
+        margin: 0 0 3rem;
+        /* margin: 0 10px; */
+    }
+
+    .gpt3__header-image .hero_img{
+        width: 400px;
+        height: 400px;
+        left: 150px;
+        right: 50px;
+        top: 0.1rem;
+        margin:0 auto;
+        position: relative;
+        
+    }
+    .gpt3__header-image .bg-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__header-content h1 {
+        font-size: 30px;
+        line-height: 60px;
+        margin: 0  auto;
+    }
+
+
+    .gpt3__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+        /* margin: 0 auto; */
+    }
+    
+    .gpt3__header-content__people {
+        flex-direction: column;
+    }
+
+    .gpt3__header-content__people p {
+        margin: 0;
+    }
+
+    .gpt3__header-image .hero_img{
+        /* display: none; */
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .gpt3__header-content h1 {
+        font-size: 20px;
+        line-height: 48px;
+    }
+
+    .gpt3__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 auto;
+    }
+
+    .gpt3__header-image .hero_img{
+        width: 100px;
+        height: 100px;
+        left: 50px;
+        right: 50px;
+        top: 1rem;
+        position: relative;
+        margin: 0 auto;
+        
+    }
+
+}

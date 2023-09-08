@@ -1,0 +1,82 @@
+
+.landing_feature__section {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    align-items: center;
+
+
+    margin-top: 10rem;
+    }
+
+    .landing_feature__content,
+    .landing_feature__image {
+       width: 50%;
+    }
+
+    .landing_feature__content h1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:1.9rem;
+        font-weight: 500;
+        color: #091133;
+        line-height: 48px;
+
+        margin: 0 8rem;
+        margin-bottom: 20px;
+    }
+
+    .landing_feature__content p{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #6F7CB2;
+        line-height: 30px;
+
+        margin: 0 8rem;
+    }
+    
+    .landing_feature__image img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex: 1;
+
+    margin: 0 8rem;
+    }
+    
+    /* This changes the styles for screens smaller than 800px in width */
+
+    @media screen and (max-width: 1050px) {
+        .landing_feature__section {
+            flex-direction: column;
+        }
+        .landing_feature__content,
+    .landing_feature__image {
+    width: 100%;
+    }
+    }
+    
+    @media (max-width: 800px) {
+    .landing_feature__section {
+    flex-direction: column;
+    }
+    
+    .landing_feature__content,
+    .landing_feature__image {
+    width: 100%;
+    }
+    .landing_feature__content h1{
+        margin: 0 auto;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .landing_feature__content p{
+        margin: 0 auto;
+    }
+
+    .landing_feature__image img{
+        margin: auto;
+    }
+    }
+    
